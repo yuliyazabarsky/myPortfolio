@@ -155,8 +155,10 @@ section#home h1#welcome {
     animation: type 3s steps(18);
     overflow:hidden;
     white-space:nowrap;
+    /* white-space:normal; */
+
     font-family: monospace;
-    font-size: 7rem;
+    font-size: 70px;
     border-right:4px solid black;
     width:18ch
     
@@ -211,4 +213,9 @@ section#home h1#welcome {
     font-family:Arial, Helvetica, sans-serif;
 
     width: 70%;
+}
+@media only screen and (max-width: 700px) {
+    .navbar {height: 120px;}
+    .navbar ul li {position: center;}
+    section#home h1#welcome{font-size: 40px;}
 }

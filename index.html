@@ -19,8 +19,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-        <nav class="navbar">
+    <div class="navbar" id="myTopnav">
+        <!-- <nav class="navbar"> -->
           
                 <p><a href="#home"><img src="images/favicon-32x32.png" id="me"></a><strong>  |  </strong>YULIYA ZABARSKY </p>
            
@@ -30,8 +30,14 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
- 
+        <!-- </nav> -->
+        <!-- <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+        </a> -->
+    </div>
 <section id="home">
     
     <h1 id="welcome">Welcome to My Site </h1>
@@ -44,7 +50,10 @@
     </div>
     <br>
     <div id="discription">
-        <card>Dynamic, positive energy human with the tech skills & sense of humor to help propel your growth. Let's make a difference together! </card>
+        <card>
+            <p>Dynamic, positive energy human with the tech skills & sense of humor to help propel your growth. </p>
+            <p>Let's create something smart and beautiful!</p>
+        </card>
 
     </div>
 </section>
@@ -64,10 +73,14 @@
                         class="mt-2" id="portfoliopic" alt="CristalCollector" /></a>
             </div>
             <div class="col-md">
+                <a href="https://github.com/yuliyazabarsky/burger" target="_blank">  
+               <img src="images/burger1.png" class="mt-2" id="portfoliopic" alt="Cute" />
+           </div> 
+            <!-- <div class="col-md">
                 <a href="https://yuliyazabarsky.github.io/Psychic-Game" target="_blank"> 
                     <img src="images/LetterGame.png" class="mt-2"
                         id="portfoliopic" alt="Psychic" /></a>
-            </div>
+            </div> -->
             <div class="col-md">
                 <a href="https://yuliyazabarsky.github.io/GifTastic" target="_blank">
                     <img src="images/sport.png" class="mt-2"
@@ -93,7 +106,7 @@
                         id="portfoliopic" id="trainpic" alt="Train" /></a>
             </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-md">
                 <a href="https://github.com/yuliyazabarsky/liri-node-app" target="_blank">
                 <img src="images/node.png" class="mt-2" id="portfoliopic" alt="Cute" />
@@ -107,7 +120,8 @@
                 <img src="images/bamazon.png" class="mt-2" id="portfoliopic" alt="Cute" />
                 </a>
             </div>
-        </div>
+        </div> -->
+        
     </div>
 
 </section>
@@ -124,7 +138,7 @@
 </section>
 
     <div class="footer">
-        <p>Copyright &copy Yuliya Zabarsky 👩</p>
+        <p>Copyright &copy 2019 Yuliya Zabarsky 👩</p>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="script.js"></script>
