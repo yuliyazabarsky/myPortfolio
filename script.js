@@ -1,4 +1,4 @@
-$(".navbar a").on("click", function(e) {
+$(".navbar a").on("click", function(event) {
     if(this.hash !==""){
         event.preventDefault();
 
@@ -14,19 +14,19 @@ $(".navbar a").on("click", function(e) {
 })
 
 
-function myFunction() {
-  let x = document.getElementById("myTopnav");
-  if (x.className === "navbar") {
-    x.className += " responsive";
-  } else {
-    x.className = "navbar";
-  }
-}
+// function myFunction() {
+//   let x = document.getElementById("myTopnav");
+//   if (x.className === "navbar") {
+//     x.className += " responsive";
+//   } else {
+//     x.className = "navbar";
+//   }
+// }
 
 
-function gototab(reload)
-   {
-    window.location.hash = '#home';
-    window.location.reload(true);
-    console.log("home");
- }
+// function gototab(reload)
+//    {
+//     window.location.hash = "#home";
+//     window.location.reload(true);
+//     console.log("home");
+//  }
